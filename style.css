@@ -1,0 +1,25 @@
+.header {
+	font-family: 'Oswald', sans-serif;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    border-top: 0px;
+    padding-left: 50px;
+    background: #f7a043;
+    width: 600px;
+    border-bottom-right-radius: 2px;
+    border-left: solid 40px #3a3232;
+    margin: 0px;
+}
+
+
+.intro {
+    position: absolute;
+    display: block;
+    width: 800px;
+    padding-left: 50px;
+    font-size: 22px;
+    top: 80px;
+    left: 0px;
+    border-left: solid 40px #3a3232;
+}
