@@ -8,6 +8,13 @@
 	<body>
 		<div class="header">
 			<h1>I'm Vinz. This is my first hosted website.</h1>
+			<div class = "navbar">
+				<ul>
+					<li>home</li>
+					<li>about</li>
+					<li>github</li>
+				</ul>
+			</div>
 		</div>
 		<div class="intro">
 			<h2>INTRODUCTION</h2>
@@ -23,22 +30,24 @@
 				This project took longer than I expected, and I had to look things up.
 				It was a great challenge overall, especially in how to deal with problems. 
 				The first thing it needs is the board. I : 
-				- Initially created it as an hash of arrays
-				- then rewrote it as an array of arrays
-				- then , looking up a solution, I said "why does it need to be complicated? " and I just did a normal array. much easier
-				
+			<ul> 
+				<li> Initially created it as an hash of arrays</li>
+				<li> then rewrote it as an array of arrays</li>
+				<li> then , looking up a solution, I said "why does it need to be complicated? " and I just did a normal array. much easier</li>
+            </ul>				
 				The goal was to make two players play against themselves. I also tried to put in a player vs cpu mode, at the end I gave up, it was getting too much. 
 				- Keep the focus on the main goal
 				
 				This is Object Oriented Programming, so we need to create classes.
-				 My solution has a main "Game" class that basically holds everything. 
-				- "startgame" well, it.... starts the game . And has the loop that keeps it running
-				- call_put prompts the player for a position, and calls put_sign
-				- put_sign , puts the sign if the cell is empty(else it recalls call_put) then calls showboard, win and full_board
-				- showboard shows the board in the terminal
-				- win checks if the current sign has a winning combination present in the board 
-				- full_board.
-				then there is the Player class. It only holds the sign. 
+				 My solution has a main "Game" class that basically holds everything.
+				<ul> 
+				 <li>"startgame" well, it.... starts the game . And has the loop that keeps it running</li>
+				 <li>call_put prompts the player for a position, and calls put_sign</li>
+				<li> put_sign , puts the sign if the cell is empty(else it recalls call_put) then calls showboard, win and full_board</li>
+				 <li>showboard shows the board in the terminal</li>
+				 <li>win checks if the current sign has a winning combination present in the board </li>
+				 <li>full_board.</li>
+				<li>then there is the Player class. It only holds the sign.</li> 
 				end. 
 				Great challenging project for OOP
 			</p>
