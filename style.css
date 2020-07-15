@@ -36,7 +36,15 @@
 }
 
 .navbar {
-    list-style: none;
+    position : absolute;
+    top: 33px;
+    left: 1000px;
+    list-style-type: none;
     margin: 0;
     padding: 0;
+}
+
+.navbar li {
+    display : inline;
+    padding : 21px; 
 }
